@@ -1,24 +1,7 @@
-# dlinterate_front
+## DL_INTERATE
 
-## Project setup
-```
-npm install
-```
+以Vue+ElementPlus+TypeScript作为前端，Django为后端集成DL模型，此仓库为前端仓库
+后端仓库为：[dl-Intergrated-django](https://github.com/Largefreedom/dl-Intergrated-django)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+目前已完成
+* ✔️PaddleOCR 图片识别集成
