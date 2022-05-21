@@ -98,7 +98,7 @@ const beforeAvatarUpload: UploadProps['beforeUpload'] = (rawFile) => {
 
 .el-card{
     margin-top: 50px;
-    height: 300px;
+    height: 100%;
 }
 
 .el-card__header{
