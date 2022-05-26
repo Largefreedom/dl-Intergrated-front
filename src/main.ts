@@ -7,10 +7,13 @@ import 'element-plus/dist/index.css'
 import nprogress from 'nprogress'
 import 'nprogress/nprogress.css'
 import {quillEditor,Quill} from 'vue3-quill'
+// import customQuillModule from 'customQuillModule'
+// Quill.register('modules/customQuillModule', customQuillModule)
 
 
 
 const app = createApp(App)
+app.use(quillEditor)
 nprogress.configure({showSpinner: false})
 
 router.beforeEach((to, from, next) => {
